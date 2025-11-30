@@ -6,7 +6,6 @@ hi{
   "scripts": {
     "dev": "nodemon server.js",
     "start": "node server.js"
-    "test": "jest"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
