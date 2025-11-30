@@ -1,4 +1,4 @@
-{
+hi{
   "name": "avhtar",
   "version": "1.0.0",
   "description": "Kyaw's backend project",
@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "nodemon server.js",
     "start": "node server.js"
+    "test": "jest"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -22,10 +23,4 @@
   "devDependencies": {
     "nodemon": "^3.0.1"
   }
-}
-"scripts": {
-  "test": "echo \"No tests yet\" && exit 0"
-}
-"scripts": {
-  "test": "jest"
 }
